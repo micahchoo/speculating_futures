@@ -5,8 +5,6 @@ on:
     branches: [ '*' ]
   pull_request:
     branches: [ '*' ]
-  schedule:
-    - cron: '0 0 * * *' # this means the action will run every day at midnight
 
 
 jobs:
